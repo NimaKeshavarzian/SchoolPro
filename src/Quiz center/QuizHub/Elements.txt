@@ -1,0 +1,12 @@
+.TitleParent ====>>> Parent of Title Elements like :
+                                                       1. Test quiz link
+                                                       2. Long quiz link
+                                                       3. Flash Card link
+.TestQuiz ====>>> test Quiz link
+.ParentImg ====>>> Parent of images for better Edit
+.Title ====>>> Title for links
+.TestTitle ====>>> Title for Test quiz
+.LongQuiz ====>>> Parent for Long quiz title
+.LongTitle ====>>> Title for Long quiz
+.FlashCard ====>>> Parent for FlashCard title
+.FlashTitle ====>>> Title for FlashCard

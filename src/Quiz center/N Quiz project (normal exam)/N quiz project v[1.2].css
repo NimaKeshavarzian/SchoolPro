@@ -1,0 +1,256 @@
+body {
+    background-color: #708090;
+    text-align: center;
+}
+
+#title {
+    color: whitesmoke;
+    font-size: 370%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#question {
+    width: 95%;
+    height: 8%;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.abc {
+    width: 95%;
+    height: 7.5%;
+    border-color: rgb(228, 228, 228);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+}
+
+#add {
+    border-width: 7px;
+    border-style: outset;
+    border-color: gray;
+    font-size: 180%;
+    position: relative;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#start {
+    border-width: 7px;
+    border-style: outset;
+    border-color: gray;
+    font-size: 180%;
+    position: relative;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#demo {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    background-color: #708090;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#questionbox {
+    border: 5px dashed whitesmoke;
+    margin: 5% 3% 4% 3%;
+}
+
+#questionh2 {
+    font-size: 200%;
+}
+
+.option {
+    height: 10%;
+    margin-top: auto;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-left: 8px solid #8c99a6;
+    background-color: #9aa6b1;
+    font-size: 150%;
+}
+
+h4 {
+    text-align: center;
+}
+
+#bottomleft {
+    text-align: left;
+    float: left;
+    position: relative;
+    left: 3%;
+}
+
+#bottomright {
+    text-align: right;
+    float: right;
+    position: relative;
+    right: 3%;
+}
+
+#bunext {
+    border-width: 4px;
+    border-style: outset;
+    border-color: gray;
+    font-size: 130%;
+    margin-bottom: 3%;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#timeLa {
+    font-size: 179%;
+}
+
+#table {
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    height: 19%;
+    border-style: solid solid dashed solid;
+    border-color: whitesmoke whitesmoke rgb(241, 229, 229) whitesmoke;
+    border-width: 3px 3px 5px 3px;
+}
+
+td {
+    text-align: center;
+    border-color: whitesmoke;
+}
+
+#headcell1,
+#headcell2 {
+    border-right: 2px solid whitesmoke;
+}
+
+#headcell1,
+#headcell2,
+#headcell3 {
+    font-size: x-large;
+}
+
+#ScoreHead {
+    font-size: 300%;
+}
+
+.h3 {
+    display: inline;
+}
+
+#Td1,
+#Td2 {
+    border-right: 2px solid whitesmoke;
+}
+
+#Td1,
+#Td2,
+#Td3 {
+    font-size: x-large;
+    border-top: 2px solid whitesmoke;
+}
+
+.h4 {
+    display: inline;
+}
+
+.TimeDiv {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 6%;
+    border: 4px solid whitesmoke;
+    border-radius: 50px;
+}
+
+#YourTime {
+    font-size: 180%;
+    font-style: italic;
+}
+
+.finalScore {
+    font-style: oblique;
+    font-size: 270%;
+}
+
+#BuFinish {
+    border: 7px outset gray;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: 180%;
+    font-style: italic;
+}
+
+fieldset {
+    margin-top: 0.5%;
+    border: 4px groove silver;
+    border-radius: 10px;
+}
+
+legend {
+    color: whitesmoke;
+    font-size: 120%;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#label {
+    color: whitesmoke;
+    font-size: 130%;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+}
+
+#TimeNum,
+#TimeNum1 {
+    background: none;
+    font-size: x-large;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    width: 15%;
+    text-align: center;
+}
+
+#TimeNum {
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+#TimeNum1 {
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+#SpTimeNum {
+    color: whitesmoke;
+    font-size: 190%;
+    margin-left: auto;
+}
+
+#more {
+    height: 12%;
+    width: 95%;
+    border: 5px groove silver;
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 110%;
+}
+
+.swal-text {
+    font-family: 'Nerko One', cursive;
+    font-weight: bolder;
+}

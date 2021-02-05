@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>N Long Quiz</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <img src="Assets/Images/N Long Quiz.png" alt="N Long Quiz">
+        </div>
+    </header>
+    <input type="text" id="Question" placeholder="Your Question">
+    <br><br>
+    <div class="CheckAnswer">
+        <br>
+        <label class="Auto">Auto Check Answer</label>
+        <label onchange='Check()' class="switch">
+        <input id="InputCheck" type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+        <br><br>
+        <input type="text" id="Answer" placeholder="Answer">
+    </div>
+    <fieldset>
+        <legend>Optional Settings</legend>
+        <label id="label" for="timeNum">Time</label>
+        <input type="number" name="timeNum" id="MinNum" class="MinNum" value="00"><span id="SpTimeNum">:</span>
+        <input type="number" id="SecNum" class="SecNum" value="00"><br><br>
+        <input type="text" name="More" id="More" placeholder="More Description">
+    </fieldset>
+    <br>
+    <div onclick="Add()" class="AddDiv">
+        <button class="AddButton">Add Question</button>
+    </div>
+    <div class="StartDiv" id="StartDiv">
+        <button class="StartButton" onclick="Start();Time();ShowMore()">Start Exam</button>
+    </div>
+    <script src="Main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,446 @@
+body {
+    background-color: #36454F;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: -15%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#Question,
+#Answer {
+    width: 90%;
+    height: 10%;
+    border: 5px inset #2196F3;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Nerko One', cursive;
+    font-style: italic;
+    position: relative;
+}
+
+#Question {
+    margin-top: -10%;
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float: right;
+    margin-right: 8%;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.Auto {
+    color: whitesmoke;
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 150% normal;
+    float: left;
+    margin-left: 10%;
+}
+
+.CheckAnswer {
+    border: 5px inset #2196F3;
+    border-radius: 18px;
+    height: 20%;
+}
+
+#Answer {
+    height: 50%;
+}
+
+fieldset {
+    margin-top: 0.5%;
+    border: 4px groove #2196F3;
+    border-radius: 10px;
+}
+
+legend {
+    color: whitesmoke;
+    font-size: 120%;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#label {
+    color: whitesmoke;
+    font-size: 130%;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+}
+
+.MinNum,
+.SecNum {
+    background: none;
+    font-size: x-large;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    width: 15%;
+    text-align: center;
+}
+
+.MinNum {
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.SecNum {
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+#SpTimeNum {
+    color: whitesmoke;
+    font-size: 190%;
+    margin-left: auto;
+}
+
+#more {
+    height: 12%;
+    width: 95%;
+    border: 5px groove #2196F3;
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 110%;
+}
+
+.AddDiv,
+.StartDiv {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    width: auto;
+    height: 7%;
+}
+
+.AddDiv {
+    background-color: rgb(0, 255, 157);
+    border: 8px ridge rgb(0, 255, 157);
+}
+
+.StartDiv {
+    background-color: #186baf;
+    border: 8px ridge #186baf;
+    display: none;
+}
+
+.AddButton,
+.StartButton {
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 210% normal;
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: whitesmoke;
+}
+
+.Header {
+    color: black;
+    background: white;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom: 5px solid #186baf;
+    height: 8%;
+    width: auto;
+    margin: -2% -2% auto -2%;
+}
+
+.fas,
+#YourTime {
+    float: left;
+    font-size: 200%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#YourTime {
+    padding-top: 1%;
+}
+
+#QuestionCount {
+    float: right;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 200%;
+    padding-top: 0.7%;
+    padding-right: 1%;
+}
+
+#QuestionField {
+    margin-top: 15%;
+    color: white;
+    border: 9px dashed #186baf;
+    font-size: 130%;
+}
+
+#AnswerClient {
+    height: 20%;
+    width: 97%;
+    margin: 17% 1.5% auto 1.5%;
+    font: italic normal bolder 200% normal;
+    outline: 8px dashed #186baf;
+    border: none;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.Submit {
+    width: auto;
+    margin: auto 0.5% 0% 0.5%;
+    position: relative;
+    top: 13%;
+    text-align: center;
+    height: 10%;
+    background-color: #2196F3;
+    border: 8px ridge #2196F3;
+    display: block;
+}
+
+.submitBU {
+    border: none;
+    background: none;
+    font: italic normal bolder 250% normal;
+    color: whitesmoke;
+    padding-top: 2.5%;
+}
+
+.FinishTitle {
+    color: whitesmoke;
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 400% normal;
+    margin-top: -2.5%;
+}
+
+.ScoreTable {
+    color: whitesmoke;
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 250% normal;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid solid dashed solid;
+    border-color: whitesmoke;
+    border-width: 7px;
+    border-radius: 18px;
+    height: 4em;
+    text-align: center;
+}
+
+td,
+th {
+    border-color: whitesmoke;
+}
+
+.Corrects,
+.Wrongs,
+#Corrects,
+#Wrongs {
+    border-right: 5px solid whitesmoke;
+    height: 49%;
+}
+
+.Corrects,
+.Wrongs,
+.Emptys {
+    border-bottom: 5px solid whitesmoke;
+    height: 49%;
+}
+
+.TimeTitle {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 6%;
+    border: 4px solid whitesmoke;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 140%;
+}
+
+#YourTimeValue {
+    font-size: 120%;
+}
+
+.LittleTitle {
+    font-size: 80%;
+}
+
+.FinalTitle {
+    font-style: oblique;
+    font-size: 270%;
+    color: whitesmoke;
+}
+
+.FinishBU {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4em;
+    background: #56b0ee;
+    border: 7px ridge #56b0ee;
+    margin-top: 5%;
+}
+
+.FinishButton {
+    background: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 250% normal;
+    border: none;
+    color: whitesmoke;
+}
+
+.CheckClient {
+    background-color: #56b0ee;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+    color: whitesmoke;
+}
+
+.QuesClient {
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 125% normal;
+    float: left;
+}
+
+.Hey {
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 125% normal;
+    text-align: center;
+}
+
+.true,
+.false,
+.EmptyAnswer {
+    width: 33.33333%;
+    border-width: 4px;
+    border-color: whitesmoke;
+    border-style: solid solid none none;
+    margin: 0px;
+    font: italic normal bolder 135% normal;
+}
+
+.EmptyAnswer {
+    border-right: none;
+}
+
+body {
+    background-color: #36454F;
+    color: whitesmoke;
+}
+
+.ClientCheck {
+    width: 90%;
+    min-height: 25%;
+    border: 7px solid whitesmoke;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 5% auto auto;
+    border-radius: 10%;
+    display: flex;
+    flex-flow: column;
+}
+
+.ClientTable {
+    width: 100%;
+    text-align: center;
+    border-style: solid none none;
+    border-top: 5px solid whitesmoke;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 10%;
+}
+
+#TrueCell,
+#FalseCell,
+#EmptyCell {
+    height: 100%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10;
+    font-family: 'Nerko One', cursive;
+    font: italic normal bolder 150% normal;
+}
+
+#TrueCell,
+#FalseCell {
+    border-right: 5px solid whitesmoke;
+}
